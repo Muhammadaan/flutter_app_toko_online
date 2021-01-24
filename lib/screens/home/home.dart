@@ -1,5 +1,7 @@
+import 'package:appEcommerce/components/bottom_navigation.dart';
 import 'package:appEcommerce/components/selection_tite.dart';
 import 'package:appEcommerce/constansts.dart';
+import 'package:appEcommerce/enums.dart';
 import 'package:appEcommerce/models/Product.dart';
 
 import 'package:appEcommerce/screens/home/components/product_populer.dart';
@@ -48,6 +50,9 @@ class HomeScreeen extends StatelessWidget {
             ),
           ),
         ),
+      ),
+      bottomNavigationBar: CustomBottomNavigation(
+        selectedMenu: MenuState.home,
       ),
     );
   }

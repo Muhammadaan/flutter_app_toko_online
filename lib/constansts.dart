@@ -19,6 +19,7 @@ const imageSplash3 = 'assets/images/splash_3.png';
 const imageSuccess = 'assets/images/success.png';
 const imageBanner1 = "assets/images/Image Banner 2.png";
 const imageBanner2 = "assets/images/Image Banner 3.png";
+const imageProfile = "assets/images/Profile Image.png";
 
 //SVG
 const svgMail = 'assets/icons/Mail.svg';
@@ -36,6 +37,15 @@ const svgGift = "assets/icons/Gift Icon.svg";
 const svgDiscover = "assets/icons/Discover.svg";
 const svgHeart = "assets/icons/Heart Icon_2.svg";
 const svgStar = "assets/icons/Star Icon.svg";
+const svgTrash = "assets/icons/Trash.svg";
+const svgReceipt = "assets/icons/receipt.svg";
+const svgCamera = "assets/icons/Camera Icon.svg";
+const svgUserIcon = "assets/icons/User Icon.svg";
+const svgSetting = "assets/icons/Settings.svg";
+const svgLogout = "assets/icons/Log out.svg";
+const svgShop = "assets/icons/Shop Icon.svg";
+const svgChat =  "assets/icons/Chat bubble Icon.svg";
+
 
 // Form Error
 final RegExp emailValidatorRegExp =
